@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Challenge 1</title>
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+    <img src="Logo.png" class="logo">
+  </header>
+  <section class="conteiner">
+    <div class="input-options">
+      <div class="writeSpace">
+        <textarea id="textInput" name="textEncryptDesencrypted" cols="20" rows="20"></textarea>
+        <label class="laberText" for="">Ingrese el texto aqui</label>
+      </div>
+      <div class="buttons">
+        <button class="buttonStyle" id="btnen"><span>Encriptar</span></button>
+        <button class="buttonStyle" id="btnde"><span>Desencriptar</span></button>
+      </div>
+    </div>
+    <div class="tablero">
+      <textarea id="result" readonly></textarea>
+      <button class="buttonStyle" id="btnco"><span>Copiar</span></button>
+    </div>
+  </section>
+  <footer class="footerComponent">
+    <p>Enviroment by AxelOlea</p>
+    <p>Repositorio <a href="https://github.com/AxelCedillo" target="_blank">aqui.</a></p>
+    <p>Copyright 2022 &copy; <a href="https://github.com/AxelCedillo"></a></p>
+  </footer>
+  <script src="scripts/main.js" ></script>
+</body>
+</html>

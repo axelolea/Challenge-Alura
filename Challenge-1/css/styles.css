@@ -1,0 +1,86 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.conteiner {
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    gap: 10px;
+}
+
+.input-options {
+    display: grid;
+    grid-template-rows: 7fr auto;
+}
+
+.footerComponent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.writeSpace {
+    color: #0A3871;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+
+}
+
+textarea{
+    border: none;
+    font-family: 'Inter', sans-serif;
+    resize: none;
+    font-size: 32px;
+}
+
+.result{
+
+    width: 100px;
+
+}
+
+.tablero {
+    display: grid;
+    align-items: center
+}
+
+
+.buttonStyle {
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+}
+
+div button span {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    justify-content: center;
+}
+
+#btnen {
+    background: #0A3871;
+    color: #D8DFE8;
+}
+
+#btnde, #btnco{
+    background: #D8DFE8;
+    color: #0A3871;
+}
+
+.tablero{
+    width: 400px;
+    height: 700px;
+    /* White */
+    background: #FFFFFF;
+    /* shadow */
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.15);
+    border-radius: 32px;
+
+}
